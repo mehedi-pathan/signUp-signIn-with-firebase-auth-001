@@ -1,5 +1,3 @@
-import { useState } from "react";
-import "./App.css";
 import SignIn from "./components/signIn/SignIn";
 import { Route, Routes } from "react-router-dom";
 import SignUp from "./components/signup/SignUp";
@@ -16,10 +14,9 @@ import Bellicon from "./icons/bell.svg";
 import MessangerIcon from "./icons/messenger.svg";
 import PlusIcon from "./icons/plus.svg";
 //icons import ends
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <AuthContextProvider>
       <div className="App">

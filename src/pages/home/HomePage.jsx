@@ -1,7 +1,7 @@
 import React from "react";
 
 const HomePage = () => {
-  return <div>HomePage</div>;
+  return <div>Go to 'Registration' and enjoy further features</div>;
 };
 
 export default HomePage;

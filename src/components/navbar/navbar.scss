@@ -1,5 +1,6 @@
 .navbar {
   position: sticky;
+  width: 100%;
   height: var(--nav-size);
   background-color: var(--bg);
   padding: 0 1rem;
@@ -17,6 +18,19 @@
     img {
       width: 100%;
       height: 100%;
+    }
+    &:active,
+    &:hover,
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .btn_wraper {
+    .btn_links {
+      cursor: pointer;
+      margin: 0 5px;
+      padding: 5px 15px;
     }
   }
   .navbar_nav {
