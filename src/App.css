@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --yellow: linear-gradient(180deg, #f8d49a -146.42%, #fad79d -46.42%);
+  --orange: #fca61f;
+  --black: #242d49;
+  --gray: #788097;
+  --purple: linear-gradient(180deg, #bb67ff 0%, #c484f3 100%);
+  --pink: #ff919d;
+  --glass: rgba(255, 255, 255, 0.54);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  --activeItem: #f799a354;
+  --bg: #242526;
+  --bg-accent: #484a4d;
+  --text-color: #dadce1;
+  --nav-size: 60px;
+  --border: 1px solid #474a4d;
+  --border-radius: 8px;
+  -speed: 500ms;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+.App {
+  /* padding: 0.5rem 3.5rem; */
+  color: var(--black);
+  background: linear-gradient(
+    106.37deg,
+    #ffe1bc 29.63%,
+    #ffcfd1 51.55%,
+    #f3c6f1 90.85%
+  );
+  height: calc(100vh - var(--nav-size));
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.AppGlass_effect {
+  height: 100%;
+  width: 100%;
+  background: var(--glass);
+  padding: 20px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background: rgba(255, 255, 255, 0.508);
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 20px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.466);
+  text-transform: capitalize;
+  transition: 0.2s ease-in;
+}
+.btn:hover,
+.btn:focus,
+.btn:active {
+  box-shadow: rgb(0 0 0 / 10%) 0px 0px 15px;
+}
+
+.btn img {
+  width: 30px;
+  height: 30px;
+}
+
+.muted {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.532);
+  font-weight: 300;
+}
+
+.submit_button {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
+.text_center {
+  text-align: center;
+}
